@@ -113,7 +113,7 @@ html{
     justify-content: space-between;
    min-height:80vh ; 
    padding: 0 10%;
-   background:url(cargo-ship-storm-with-lightning.jpg)no-repeat center/cover;
+   background:url(hero.webp)no-repeat center/cover;
    backdrop-filter: blur(10px);
 }
 .home-info h2{
