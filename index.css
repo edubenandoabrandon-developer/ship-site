@@ -397,6 +397,10 @@ margin-top: 20px;
     border: 1px solid;
     color: #111;
     margin-top: 10px;
+    display: none;
+}
+.choose-text.show{
+    display: block;
 }
 .choose-div{
     display: flex;

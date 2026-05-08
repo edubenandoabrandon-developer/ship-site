@@ -126,3 +126,18 @@ forms.addEventListener("submit",(e)=>{
    
 
 })
+const chooseDiv= document.querySelectorAll(".choose-div")
+const  chooseText = document.querySelector(".choose-text")
+const icons = document.querySelectorAll(".choose-div i")
+chooseDiv.forEach((box,index)=>{
+    box.addEventListener("click",()=>{
+        chooseText.classList.toggle("show")
+        if(icons[index].classList.contains("bx-plus")){
+            icons[index].classList.remove("bx-plus")
+            icons[index].classList.add("bx-minus")
+        }else{
+            icons[index].classList.remove("bx-minus")
+            icons[index].classList.add("bx-plus")
+        }
+    })
+})
